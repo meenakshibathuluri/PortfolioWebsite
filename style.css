@@ -139,10 +139,11 @@ cursor: pointer;
 }
 .education {
     background-color: rgba(50, 47, 47, 0.147);
-    height: 400px;
-     flex-direction: column;
-    gap: 60px;
-
+    display: flex;
+    height: 500px;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 100px;
 }
 .studies {
     display: flex;
@@ -151,6 +152,12 @@ cursor: pointer;
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.ssc {
-    
+.ssc, .inter, .b-tech {
+   background-color: white;
+   border-radius: 30px;
+   height: 150px;
+   width: 160px;
+    padding-bottom: 18px;
+    padding-left: 18px;
+    padding-top: 18px;
 }
