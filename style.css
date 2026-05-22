@@ -137,27 +137,123 @@ transform: translateY(-20px);
 transition: ease-in 0.5s;
 cursor: pointer;
 }
-.education {
-    background-color: rgba(50, 47, 47, 0.147);
-    display: flex;
-    height: 500px;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-bottom: 100px;
-}
-.studies {
+.Education-section {
+    background-color:  #f8f8f8;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 40px;
 }
-.ssc, .inter, .b-tech {
-   background-color: white;
-   border-radius: 30px;
-   height: 150px;
-   width: 160px;
-    padding-bottom: 18px;
-    padding-left: 18px;
-    padding-top: 18px;
+.education {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.css, .inter, .b-tech {
+    background-color: white;
+    border-radius: 15px;
+    width: 350px;
+    padding: 30px;
+    height: 200px;
+ p {
+    padding-bottom: 10px;
+ }
+ h2 {
+    padding-bottom: 10px;
+ }
+}
+
+#contact {
+margin-bottom: 100px;
+background-color: #f8f8f8;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 100px;
+flex-direction: column;
+margin-bottom: 50px;
+padding-bottom: 50px;
+}
+.contact-container {
+display: flex;
+gap: 100px;
+}
+.contact-card {
+width: 400px;
+height: 150px;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 10px;
+border-radius: 15px;
+box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 15px;i {
+font-size: 30px;
+}
+}
+.cards-container {
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+.form-container {
+display: flex;
+flex-direction: column;
+gap: 20px;
+input {
+display: inline-block;
+height: 50px;
+padding: 20px;
+border-radius: 15px;
+font-size: 18px;
+border: 1px solid black;
+width: 400px;
+}
+textarea {
+display: inline-block;
+padding: 20px;
+border-radius: 15px;
+font-size: 18px;
+border: 1px solid black;
+width: 400px;
+}
+}
+.send-button {
+background-color: black;
+color: white;
+width: 100px;
+border: none;border-radius: 15px;
+padding: 15px;
+font-size: 20px;
+cursor: pointer;
+}
+#footer {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 20px;
+padding: 30px;
+}
+.footer-headings {
+display: flex;
+gap: 30px;
+p {
+font-size: 20px;
+font-weight: bold;
+}
+margin-bottom: 20px;
+}
+.footer-icons {
+display: flex;
+gap: 20px;
+margin-bottom: 10px;
+i {
+font-size: 30px;
+color: black;
+}
 }
